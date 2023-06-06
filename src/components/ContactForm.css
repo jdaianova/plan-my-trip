@@ -1,0 +1,42 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    margin-top: 10px;
+    height: 220px;
+    background-color: rgba(51, 178, 213, 0.1);
+}
+
+.Form-button:hover {
+    background-color: rgb(51, 178, 213);
+    outline: 1px dashed rgb(1, 93, 125);
+    color: rgb(1, 93, 125);
+}
+
+form label {
+    font-family: "Dongle-Light";
+    font-size: 25px;
+    line-height: 1.0em;
+    color: rgb(1, 93, 125);
+}
+
+form textarea,
+form input {
+    padding: 5px;
+    width: 250px;
+    border: none;
+}
+
+form textarea:focus,
+form input:focus {
+    outline: 1px dashed rgb(1, 93, 125);
+}
+
+form textarea {
+    flex: 1;
+    margin-bottom: 10px;
+}
+
+form input {}

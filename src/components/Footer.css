@@ -1,0 +1,45 @@
+.Footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px dashed rgba(51, 178, 213, 0.5);
+    padding: 20px 0;
+}
+
+.Footer-container {
+    width: 310px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.Footer-container p {
+    color: rgb(1, 93, 125);
+    font-size: 20px;
+    font-family: "HindSiliguri-Regular";
+}
+
+.Footer-container img {
+    width: 70px;
+    margin-top: -38px;
+    z-index: 999;
+}
+
+.Social-media {
+    width: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Footer-container a img {
+    width: 30px;
+}
+
+.Footer-container a {
+    cursor: pointer;
+}

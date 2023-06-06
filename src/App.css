@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Motherline";
+  src: url("./fonts/Motherline.ttf");
+}
+
+@font-face {
+  font-family: "Dongle-Light";
+  src: url("./fonts/Dongle-Light.ttf");
+}
+
+@font-face {
+  font-family: "HindSiliguri-Regular";
+  src: url("./fonts/Hind\ Siliguri/HindSiliguri-Regular.ttf");
+}
+
+.Top-navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  background-color: rgba(51, 178, 213, 0.2);
+}
+
+.Top-navbar-container {
+  width: 270px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Link {
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 32%;
+  padding: 3px 0;
+  text-align: center;
+  font-family: "HindSiliguri-Regular";
+  font-size: 13px;
+  background-color: rgb(1, 93, 125);
+  border-radius: 5px;
+  color: rgb(146, 223, 244);
+  outline: 1px dashed rgb(51, 178, 213);
+  outline-offset: -3px;
+}
+
+.Link:hover {
+  background-color: rgb(51, 178, 213);
+  outline: 1px dashed rgb(1, 93, 125);
+  color: rgb(1, 93, 125);
+}
+
+.App {
+  height: 93vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Content {
+  flex: 1;
+  width: 270px;
+  margin: 20px auto;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.Content h2 {
+  font-family: "Motherline";
+  line-height: 1.1em;
+  font-size: 35px;
+  color: rgb(29, 27, 25);
+}
+
+.Content p {
+  margin: 30px 0;
+  font-family: "HindSiliguri-Regular";
+  color: rgb(1, 93, 125);
+  font-size: 20px;
+}
+
+@media screen and (min-width: 500px) and (max-width: 850px) {
+  .Header-with-menu {
+    margin: 0 auto;
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+  }
+}

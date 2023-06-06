@@ -1,0 +1,80 @@
+.Menu {
+    display: flex;
+    justify-content: center;
+    /* outline: 1px solid red; */
+    padding: 10px 0;
+
+}
+
+.Buttons {
+    width: 270px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Button {
+    width: 32%;
+    padding: 3px 0;
+    text-align: center;
+    border: none;
+    font-family: "HindSiliguri-Regular";
+    font-size: 16px;
+    background-color: rgb(51, 178, 213);
+    border-radius: 5px;
+    color: white;
+    outline: 1px dashed rgba(255, 255, 255, 0.7);
+    outline-offset: -3px;
+    margin-bottom: 5px;
+}
+
+.Button:nth-child(3n-1) {
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.Button:hover,
+.Select-button {
+    background-color: rgb(1, 93, 125);
+    cursor: pointer;
+}
+
+@media screen and (min-width: 500px) and (max-width: 850px) {
+    .Buttons {
+        margin-left: 20px;
+        flex-direction: column;
+        overflow-y: scroll;
+        width: 110px;
+        height: 145px;
+        flex-wrap: nowrap;
+    }
+
+    .Button {
+        width: 90px;
+        height: 35px;
+    }
+
+    .Button:nth-child(3n-1) {
+        margin: 0px 0px 5px 0px;
+    }
+}
+
+@media screen and (min-width: 851px) {
+    .Buttons {
+        width: 100%;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Button {
+        width: auto;
+        padding: 0 20px;
+        height: 35px;
+        margin-right: 10px;
+    }
+
+    .Button:nth-child(3n-1) {
+        margin: 0px 10px 5px 0px;
+    }
+}

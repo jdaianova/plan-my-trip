@@ -1,0 +1,110 @@
+.Main {
+    padding: 0 30px;
+    flex: 1;
+    overflow-y: scroll;
+}
+
+.Card {
+    padding: 20px;
+    /* background-color: rgba(51, 178, 213, 0.1);
+    margin-bottom: 20px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.Card-title {
+    width: 270px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    font-family: "HindSiliguri-Regular";
+    margin-bottom: 5px;
+}
+
+/* counrty */
+.Card-title h2 {
+    font-family: "Motherline";
+    font-size: 25px;
+    line-height: 0.8em;
+    color: rgb(29, 27, 25);
+}
+
+/* name of place */
+.Card-title h3 {
+    color: rgb(1, 93, 125);
+    font-size: 18px;
+    line-height: 1em;
+}
+
+.Card-pic {
+    width: 270px;
+    height: 160px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    outline: 1px dashed rgba(255, 255, 255, 0.7);
+    outline-offset: -5px;
+}
+
+.Card-pic img {
+    width: 100%;
+}
+
+.Card-description {
+    width: 270px;
+    font-family: "Dongle-Light";
+    font-size: 20px;
+    line-height: 0.8em;
+    text-align: justify;
+}
+
+.Button-show-more {
+    font-size: 14px;
+    font-family: "Motherline";
+    background-color: transparent;
+    border: none;
+    color: rgb(1, 93, 125);
+    cursor: pointer;
+}
+
+@media screen and (min-width: 650px) and (max-width: 899px) {
+    .Main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .Card {
+        width: 49%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .Main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .Card {
+        width: 33%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .Main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .Card {
+        width: 24%;
+    }
+}

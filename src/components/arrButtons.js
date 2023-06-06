@@ -1,0 +1,1 @@
+export const arrButtons = ['All', 'Malta', 'Greece', 'Maldives', 'Italy'];
