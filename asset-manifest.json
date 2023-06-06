@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/plan-my-trip/static/css/main.813ccc1b.css",
+    "main.js": "/plan-my-trip/static/js/main.831ac104.js",
+    "static/js/787.b7fa223d.chunk.js": "/plan-my-trip/static/js/787.b7fa223d.chunk.js",
+    "static/media/Dongle-Light.ttf": "/plan-my-trip/static/media/Dongle-Light.099c1b232ee32aedbc6d.ttf",
+    "static/media/MaldivesMale.jpg": "/plan-my-trip/static/media/MaldivesMale.3d5da19624dbbbfdb418.jpg",
+    "static/media/ItalyRome.png": "/plan-my-trip/static/media/ItalyRome.26acd53ae4b29f1cbc90.png",
+    "static/media/HindSiliguri-Regular.ttf": "/plan-my-trip/static/media/HindSiliguri-Regular.a76f7b2fbd3c1933c1c4.ttf",
+    "static/media/GreeceAthens.jpg": "/plan-my-trip/static/media/GreeceAthens.02dafb1980767bba32e6.jpg",
+    "static/media/MaltaGozo.jpg": "/plan-my-trip/static/media/MaltaGozo.eaecaceb1de7df613310.jpg",
+    "static/media/MaltaSilentCity.jpg": "/plan-my-trip/static/media/MaltaSilentCity.aa501e6ec27f9e715432.jpg",
+    "static/media/GreeceEgina.jpg": "/plan-my-trip/static/media/GreeceEgina.5e1a8c09454ae1d1e07c.jpg",
+    "static/media/MaltaValetta.jpg": "/plan-my-trip/static/media/MaltaValetta.86c34a06ad44d09d22fa.jpg",
+    "static/media/MaldivesThoddoo.jpg": "/plan-my-trip/static/media/MaldivesThoddoo.439a8b3beb89105ba9fc.jpg",
+    "static/media/plain.png": "/plan-my-trip/static/media/plain.f30407f95c2ede63478b.png",
+    "static/media/bus.png": "/plan-my-trip/static/media/bus.9f058398e4da05f21cd3.png",
+    "static/media/Motherline.ttf": "/plan-my-trip/static/media/Motherline.5fca96a08e2b1ffd997b.ttf",
+    "static/media/fb.png": "/plan-my-trip/static/media/fb.2208dd3459d42389cf5c.png",
+    "static/media/train.png": "/plan-my-trip/static/media/train.d07869a7d1b646167715.png",
+    "static/media/inst.png": "/plan-my-trip/static/media/inst.ba36fb22e8fc60756651.png",
+    "static/media/MaltaBluLagoon.jpg": "/plan-my-trip/static/media/MaltaBluLagoon.d37e0b5f320f1b8a9503.jpg",
+    "static/media/tg.png": "/plan-my-trip/static/media/tg.04f0003d297754177e7b.png",
+    "index.html": "/plan-my-trip/index.html",
+    "main.813ccc1b.css.map": "/plan-my-trip/static/css/main.813ccc1b.css.map",
+    "main.831ac104.js.map": "/plan-my-trip/static/js/main.831ac104.js.map",
+    "787.b7fa223d.chunk.js.map": "/plan-my-trip/static/js/787.b7fa223d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.813ccc1b.css",
+    "static/js/main.831ac104.js"
+  ]
+}
