@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/plan-my-trip/static/css/main.813ccc1b.css",
-    "main.js": "/plan-my-trip/static/js/main.c5e5c2d3.js",
+    "main.js": "/plan-my-trip/static/js/main.93a8e9a3.js",
     "static/js/787.b7fa223d.chunk.js": "/plan-my-trip/static/js/787.b7fa223d.chunk.js",
     "static/media/Dongle-Light.ttf": "/plan-my-trip/static/media/Dongle-Light.099c1b232ee32aedbc6d.ttf",
     "static/media/MaldivesMale.jpg": "/plan-my-trip/static/media/MaldivesMale.3d5da19624dbbbfdb418.jpg",
@@ -23,11 +23,11 @@
     "static/media/tg.png": "/plan-my-trip/static/media/tg.04f0003d297754177e7b.png",
     "index.html": "/plan-my-trip/index.html",
     "main.813ccc1b.css.map": "/plan-my-trip/static/css/main.813ccc1b.css.map",
-    "main.c5e5c2d3.js.map": "/plan-my-trip/static/js/main.c5e5c2d3.js.map",
+    "main.93a8e9a3.js.map": "/plan-my-trip/static/js/main.93a8e9a3.js.map",
     "787.b7fa223d.chunk.js.map": "/plan-my-trip/static/js/787.b7fa223d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.813ccc1b.css",
-    "static/js/main.c5e5c2d3.js"
+    "static/js/main.93a8e9a3.js"
   ]
 }
