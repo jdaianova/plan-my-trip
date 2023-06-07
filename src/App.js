@@ -15,14 +15,14 @@ function App() {
     <Router>
       <nav className="Top-navbar">
         <div className='Top-navbar-container'>
-          <Link className='Link' to="">Home</Link>
+          <Link className='Link' to="/plan-my-trip">Home</Link>
           <Link className='Link' exact to="/about">About us</Link>
           <Link className='Link' exact to="/contacts">contacts</Link>
         </div>
       </nav>
 
       <Routes>
-        <Route path='' exact element={<Home />} />
+        <Route path='/plan-my-trip' element={<Home />} />
         <Route path='/about' exact element={<About />} />
         <Route path='/contacts' exact element={<Contacts />} />
       </Routes>
