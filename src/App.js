@@ -15,14 +15,14 @@ function App() {
     <Router>
       <nav className="Top-navbar">
         <div className='Top-navbar-container'>
-          <Link className='Link' to="/htpps://jdaianova.github.io/plan-my-trip">Home</Link>
+          <Link className='Link' to="/">Home</Link>
           <Link className='Link' to="/about">About us</Link>
           <Link className='Link' to="/contacts">contacts</Link>
         </div>
       </nav>
 
       <Routes>
-        <Route path='/htpps://jdaianova.github.io/plan-my-trip' element={<Home />} />
+        <Route path='htpps://jdaianova.github.io/plan-my-trip' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/contacts' element={<Contacts />} />
       </Routes>
