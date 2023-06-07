@@ -22,7 +22,7 @@ function App() {
       </nav>
 
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/htpps://jdaianova.github.io/plan-my-trip' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/contacts' element={<Contacts />} />
       </Routes>
