@@ -17,12 +17,14 @@ function Main({ pics }) {
                             <img src={pic}></img>
                         </div>
 
-                        <div className='Card-description' onClick={() => {
-                            el.showMore = !el.showMore;
-                            setShowText(el.showMore);
-                        }}>
+                        <div className='Card-description'>
                             {el.showMore ? description : description.substring(0, 65)}
-                            <button className='Button-show-more'>{el.showMore ? '... show less' : '... show more'}</button>
+                            <button
+                                className='Button-show-more'
+                                onClick={() => {
+                                    el.showMore = !el.showMore;
+                                    setShowText(!showText);
+                                }}>{el.showMore ? '... show less' : '... show more'}</button>
                         </div>
 
                     </div>
